@@ -1,0 +1,97 @@
+@media screen and (max-width: 600px) {
+  /* line 4, ../../sass/components/media600.scss */
+  header .buscador .buscar {
+    padding: 0 5px;
+  }
+  /* line 7, ../../sass/components/media600.scss */
+  header .buscador .buscar form input {
+    flex: 1;
+    -webkit-flex: 1;
+    -moz-flex: 1;
+    margin-left: 0;
+  }
+  /* line 13, ../../sass/components/media600.scss */
+  header .buscador .buscar form .select {
+    flex: 1;
+    -webkit-flex: 1;
+    -moz-flex: 1;
+    background-position-x: 200px;
+  }
+  /* line 18, ../../sass/components/media600.scss */
+  header .buscador .buscar form .select select {
+    width: 260px;
+  }
+  /* line 22, ../../sass/components/media600.scss */
+  header .buscador .buscar form #btnBuscar {
+    background-position-x: 50%;
+    width: 100%;
+  }
+
+  /* line 34, ../../sass/components/media600.scss */
+  #home #modulo1 .newsletter h3 {
+    background: url(../images/newsletterTitleMovil.png) no-repeat;
+    height: 165px;
+    background-position-x: 50%;
+  }
+  /* line 46, ../../sass/components/media600.scss */
+  #home #modulo2 #videos .view-display-id-block_4 .view-header .video .summary {
+    height: 60px;
+    padding: 8px;
+  }
+
+  /* line 58, ../../sass/components/media600.scss */
+  #seccionNotas .view-content .views-row {
+    margin-bottom: 40px;
+    width: 100%;
+  }
+  /* line 61, ../../sass/components/media600.scss */
+  #seccionNotas .view-content .views-row img {
+    height: auto;
+    width: 100%;
+  }
+  /* line 66, ../../sass/components/media600.scss */
+  #seccionNotas .view-content .views-row .nota .text {
+    height: auto;
+    position: static;
+    width: 100%;
+  }
+  /* line 71, ../../sass/components/media600.scss */
+  #seccionNotas .view-content .views-row .nota .text:before {
+    content: "";
+  }
+
+  /* line 81, ../../sass/components/media600.scss */
+  #restaurantes .view-content .views-row {
+    width: 100%;
+    margin-bottom: 45px;
+  }
+  /* line 84, ../../sass/components/media600.scss */
+  #restaurantes .view-content .views-row img {
+    width: 100%;
+    height: auto;
+  }
+  /* line 89, ../../sass/components/media600.scss */
+  #restaurantes .view-content .views-row .nota .text:before {
+    content: "";
+  }
+  /* line 92, ../../sass/components/media600.scss */
+  #restaurantes .view-content .views-row .nota .text {
+    text-align: center;
+    position: static;
+    width: 100%;
+  }
+
+  /* line 104, ../../sass/components/media600.scss */
+  #secciones .view-content .views-row {
+    width: 100%;
+  }
+  /* line 106, ../../sass/components/media600.scss */
+  #secciones .view-content .views-row img {
+    height: auto;
+    width: 100%;
+  }
+  /* line 111, ../../sass/components/media600.scss */
+  #secciones .view-content .views-row .nota .text {
+    width: 100%;
+  }
+}

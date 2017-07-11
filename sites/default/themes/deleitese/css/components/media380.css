@@ -1,0 +1,105 @@
+@media screen and (max-width: 380px) {
+  /* line 6, ../../sass/components/media380.scss */
+  header #movil #logo h1 {
+    background-size: 100%;
+    background-position-x: -12px;
+    height: auto;
+  }
+  /* line 12, ../../sass/components/media380.scss */
+  header #movil .menu {
+    width: 85%;
+  }
+
+  /* line 23, ../../sass/components/media380.scss */
+  #home #noticias .view-content .views-row .nota .text {
+    width: 100%;
+    padding: 8px;
+  }
+  /* line 39, ../../sass/components/media380.scss */
+  #home #modulo1 .personajes .view-display-id-block_1 .view-content .views-row .personaje .foto a {
+    top: 6px;
+    left: 6px;
+  }
+  /* line 45, ../../sass/components/media380.scss */
+  #home #modulo1 .personajes .view-display-id-block_1 .view-content .views-row .personaje .info .resumen {
+    width: 100%;
+  }
+
+  /* line 61, ../../sass/components/media380.scss */
+  #seccionNotas .view-content .views-row .nota .text {
+    padding: 8px;
+    width: 100%;
+  }
+
+  /* line 74, ../../sass/components/media380.scss */
+  #restaurantes .view-content .views-row .nota .text {
+    padding: 8px;
+    width: 100%;
+  }
+
+  /* line 87, ../../sass/components/media380.scss */
+  #personaje .left .nombre .title {
+    padding: 0 0 0 2%;
+    width: 96%;
+  }
+  /* line 91, ../../sass/components/media380.scss */
+  #personaje .left .nombre .titulo {
+    font-size: 55px;
+    padding: 0 0 0 2%;
+    width: 96%;
+  }
+  /* line 96, ../../sass/components/media380.scss */
+  #personaje .left .nombre .subtitulo {
+    font-size: 55px;
+    padding: 0 0 0 2%;
+    width: 98%;
+  }
+  /* line 102, ../../sass/components/media380.scss */
+  #personaje .left .text {
+    margin: 0;
+    padding: 0 0 0 2%;
+    width: 96%;
+  }
+
+  /* line 115, ../../sass/components/media380.scss */
+  #recetas #videos .view-display-id-block_1 .view-content .views-row img {
+    height: auto;
+    width: 100%;
+  }
+
+  /* line 129, ../../sass/components/media380.scss */
+  footer #footer .left .redes li:nth-child(2) {
+    display: none;
+  }
+
+  /* line 140, ../../sass/components/media380.scss */
+  #maintenace .head .content {
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+    padding: 0px;
+  }
+  /* line 141, ../../sass/components/media380.scss */
+  #maintenace .head .content #logo {
+    width: 100%;
+    height: 90px;
+  }
+  /* line 142, ../../sass/components/media380.scss */
+  #maintenace .head .content #logo h1 {
+    height: 90px;
+    background-size: auto;
+    background-size: 80%;
+    background-position: 40%;
+  }
+  /* line 148, ../../sass/components/media380.scss */
+  #maintenace .info .content .olla {
+    width: 100%;
+    height: auto;
+    padding-bottom: 20px;
+  }
+  /* line 150, ../../sass/components/media380.scss */
+  #maintenace .info .content .cinta {
+    width: 100%;
+    height: auto;
+  }
+}

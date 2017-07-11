@@ -1,0 +1,407 @@
+@media screen and (max-width: 480px) {
+  /* line 4, ../../sass/components/media480.scss */
+  header #movil .hamburLogo {
+    width: 100%;
+  }
+  /* line 7, ../../sass/components/media480.scss */
+  header #movil #logo {
+    width: 100%;
+  }
+  /* line 10, ../../sass/components/media480.scss */
+  header #movil .menu {
+    width: 70%;
+  }
+  /* line 12, ../../sass/components/media480.scss */
+  header #movil .menu .btnSeguir {
+    margin-top: 20px;
+    flex: 1;
+    -webkit-flex: 1;
+    -moz-flex: 1;
+    height: auto;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+  }
+  /* line 27, ../../sass/components/media480.scss */
+  header .buscador .buscar form {
+    width: 100%;
+  }
+  /* line 29, ../../sass/components/media480.scss */
+  header .buscador .buscar form input {
+    width: 100%;
+    flex: initial;
+    -webkit-flex: initial;
+    -moz-flex: initial;
+    margin: 0 0 10px 0;
+  }
+  /* line 36, ../../sass/components/media480.scss */
+  header .buscador .buscar form .select {
+    background-position-x: 98%;
+    flex: initial;
+    -webkit-flex: initial;
+    -moz-flex: initial;
+    width: 100%;
+  }
+  /* line 42, ../../sass/components/media480.scss */
+  header .buscador .buscar form .select select {
+    width: 100%;
+  }
+
+  /* line 55, ../../sass/components/media480.scss */
+  #home #rutas .notas .grafiLeft {
+    display: none;
+  }
+  /* line 56, ../../sass/components/media480.scss */
+  #home #rutas .notas .grafiRight {
+    display: none;
+  }
+  /* line 58, ../../sass/components/media480.scss */
+  #home #rutas .notas .leftOrange {
+    height: auto;
+  }
+  /* line 60, ../../sass/components/media480.scss */
+  #home #rutas .notas .leftOrange .left {
+    background-color: #F7931E;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    justify-content: center;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    height: auto;
+  }
+  /* line 69, ../../sass/components/media480.scss */
+  #home #rutas .notas .leftOrange .left .destacada {
+    width: 300px;
+  }
+  /* line 72, ../../sass/components/media480.scss */
+  #home #rutas .notas .leftOrange .left .lateral {
+    width: 100%;
+    height: auto;
+  }
+  /* line 80, ../../sass/components/media480.scss */
+  #home #rutas .notas .rightNegro .right {
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    justify-content: center;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    background-color: #F7931E;
+  }
+  /* line 88, ../../sass/components/media480.scss */
+  #home #rutas .notas .rightNegro .right .lateral {
+    width: 100%;
+    height: auto;
+  }
+  /* line 91, ../../sass/components/media480.scss */
+  #home #rutas .notas .rightNegro .right .lateral .view-rutas {
+    width: 100%;
+  }
+  /* line 102, ../../sass/components/media480.scss */
+  #home #noticias .view-content .views-row {
+    width: 100%;
+    margin-bottom: 45px;
+  }
+  /* line 105, ../../sass/components/media480.scss */
+  #home #noticias .view-content .views-row img {
+    width: 100%;
+    height: auto;
+  }
+  /* line 110, ../../sass/components/media480.scss */
+  #home #noticias .view-content .views-row .nota .text:before {
+    content: "";
+  }
+  /* line 113, ../../sass/components/media480.scss */
+  #home #noticias .view-content .views-row .nota .text {
+    position: static;
+    width: 100%;
+  }
+  /* line 123, ../../sass/components/media480.scss */
+  #home #modulo1 .notas {
+    padding: 100px 5px 0 5px;
+  }
+  /* line 127, ../../sass/components/media480.scss */
+  #home #modulo1 .notas .view-display-id-block_8 .view-content .views-row {
+    width: 100%;
+  }
+  /* line 130, ../../sass/components/media480.scss */
+  #home #modulo1 .notas .view-display-id-block_8 .view-content .views-row .foto img {
+    width: 100%;
+    height: auto;
+  }
+  /* line 142, ../../sass/components/media480.scss */
+  #home #modulo1 .newsletter .webform-client-form-470 .form-item input {
+    width: 98%;
+  }
+  /* line 149, ../../sass/components/media480.scss */
+  #home #modulo1 .personajes {
+    padding-bottom: 40px;
+  }
+  /* line 151, ../../sass/components/media480.scss */
+  #home #modulo1 .personajes .view-display-id-block_1 {
+    padding: 0;
+    width: 100%;
+  }
+  /* line 155, ../../sass/components/media480.scss */
+  #home #modulo1 .personajes .view-display-id-block_1 .view-content .views-row {
+    width: 100%;
+  }
+  /* line 158, ../../sass/components/media480.scss */
+  #home #modulo1 .personajes .view-display-id-block_1 .view-content .views-row .personaje .marcoMovil {
+    display: block;
+    width: 100%;
+    height: 523px;
+    background: url(../images/marcoPersonajes.png) no-repeat;
+    background-position: -2px 0;
+    background-size: 100%;
+    position: absolute;
+    z-index: 2;
+  }
+  /* line 168, ../../sass/components/media480.scss */
+  #home #modulo1 .personajes .view-display-id-block_1 .view-content .views-row .personaje .foto {
+    width: 100%;
+  }
+  /* line 170, ../../sass/components/media480.scss */
+  #home #modulo1 .personajes .view-display-id-block_1 .view-content .views-row .personaje .foto a {
+    width: 92%;
+    height: auto;
+    margin: 0px auto;
+    position: relative;
+    top: 8px;
+    padding: 4px 0;
+    left: 8px;
+    z-index: 2;
+  }
+  /* line 179, ../../sass/components/media480.scss */
+  #home #modulo1 .personajes .view-display-id-block_1 .view-content .views-row .personaje .foto a img {
+    width: 98%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    top: 0;
+  }
+  /* line 189, ../../sass/components/media480.scss */
+  #home #modulo1 .personajes .view-display-id-block_1 .view-content .views-row .personaje .foto:before {
+    content: initial;
+  }
+  /* line 190, ../../sass/components/media480.scss */
+  #home #modulo1 .personajes .view-display-id-block_1 .view-content .views-row .personaje .info {
+    top: 45px;
+  }
+  /* line 192, ../../sass/components/media480.scss */
+  #home #modulo1 .personajes .view-display-id-block_1 .view-content .views-row .personaje .info .titulo {
+    height: auto;
+    position: static;
+  }
+  /* line 195, ../../sass/components/media480.scss */
+  #home #modulo1 .personajes .view-display-id-block_1 .view-content .views-row .personaje .info .titulo a {
+    line-height: 47px;
+    width: 60%;
+  }
+  /* line 200, ../../sass/components/media480.scss */
+  #home #modulo1 .personajes .view-display-id-block_1 .view-content .views-row .personaje .info .resumen {
+    position: static;
+  }
+  /* line 217, ../../sass/components/media480.scss */
+  #home #modulo2 #videos .view-display-id-block_4 .view-header .video .summary {
+    display: none;
+  }
+  /* line 228, ../../sass/components/media480.scss */
+  #home #modulo3 #galeriaInstagram li {
+    height: auto;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  /* line 232, ../../sass/components/media480.scss */
+  #home #modulo3 #galeriaInstagram li img {
+    display: block;
+    margin: 0 auto;
+    height: 320px;
+    width: 320px;
+  }
+  /* line 238, ../../sass/components/media480.scss */
+  #home #modulo3 #galeriaInstagram li .data {
+    justify-content: center;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+  }
+  /* line 248, ../../sass/components/media480.scss */
+  #home .slides .next {
+    background-size: 40px;
+    height: 35px;
+    width: 43px;
+  }
+  /* line 253, ../../sass/components/media480.scss */
+  #home .slides .prev {
+    background-size: 40px;
+    height: 35px;
+    width: 43px;
+  }
+
+  /* line 262, ../../sass/components/media480.scss */
+  #personajes {
+    padding-bottom: 40px;
+  }
+  /* line 265, ../../sass/components/media480.scss */
+  #personajes article .view-display-id-block_2 {
+    padding: 0;
+    width: 100%;
+  }
+  /* line 269, ../../sass/components/media480.scss */
+  #personajes article .view-display-id-block_2 .view-content .views-row {
+    width: 100%;
+  }
+  /* line 271, ../../sass/components/media480.scss */
+  #personajes article .view-display-id-block_2 .view-content .views-row .personaje {
+    top: 0;
+  }
+  /* line 273, ../../sass/components/media480.scss */
+  #personajes article .view-display-id-block_2 .view-content .views-row .personaje .marcoMovil {
+    display: block;
+    width: 100%;
+    height: 523px;
+    background: url(../images/marcoPersonajes2.svg) no-repeat;
+    background-position: -2px 0;
+    background-size: 100%;
+    position: absolute;
+    z-index: 2;
+  }
+  /* line 283, ../../sass/components/media480.scss */
+  #personajes article .view-display-id-block_2 .view-content .views-row .personaje .foto {
+    width: 100%;
+  }
+  /* line 285, ../../sass/components/media480.scss */
+  #personajes article .view-display-id-block_2 .view-content .views-row .personaje .foto a {
+    width: 95%;
+    height: auto;
+    margin: 0;
+    position: relative;
+    top: 4px;
+    padding: 0px 0;
+    left: 4%;
+    z-index: 2;
+  }
+  /* line 294, ../../sass/components/media480.scss */
+  #personajes article .view-display-id-block_2 .view-content .views-row .personaje .foto a img {
+    width: 98%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    top: 0;
+  }
+  /* line 304, ../../sass/components/media480.scss */
+  #personajes article .view-display-id-block_2 .view-content .views-row .personaje .foto:before {
+    content: initial;
+  }
+  /* line 305, ../../sass/components/media480.scss */
+  #personajes article .view-display-id-block_2 .view-content .views-row .personaje .info {
+    top: 45px;
+    height: auto;
+    width: 100%;
+  }
+  /* line 309, ../../sass/components/media480.scss */
+  #personajes article .view-display-id-block_2 .view-content .views-row .personaje .info .titulo {
+    height: auto;
+    position: static;
+  }
+  /* line 312, ../../sass/components/media480.scss */
+  #personajes article .view-display-id-block_2 .view-content .views-row .personaje .info .titulo a {
+    line-height: 47px;
+    width: 60%;
+  }
+  /* line 317, ../../sass/components/media480.scss */
+  #personajes article .view-display-id-block_2 .view-content .views-row .personaje .info .resumen {
+    position: static;
+    width: 100%;
+  }
+
+  /* line 329, ../../sass/components/media480.scss */
+  #promociones {
+    padding: 0;
+  }
+  /* line 333, ../../sass/components/media480.scss */
+  #promociones .view-display-id-block_6 .view-content .views-row {
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    margin-right: 0;
+    width: 100%;
+  }
+  /* line 339, ../../sass/components/media480.scss */
+  #promociones .view-display-id-block_6 .view-content .views-row img {
+    height: auto;
+    width: 100%;
+  }
+
+  /* line 352, ../../sass/components/media480.scss */
+  #personaje .left .nombre .titulo {
+    width: 75%;
+    padding: 0 0 0 7%;
+  }
+  /* line 356, ../../sass/components/media480.scss */
+  #personaje .left .nombre .subtitulo {
+    box-sizing: initial;
+    padding: 0 0 0 6%;
+    width: 94%;
+    left: 0;
+  }
+  /* line 365, ../../sass/components/media480.scss */
+  #personaje .left .movil .foto img {
+    width: 100%;
+  }
+  /* line 370, ../../sass/components/media480.scss */
+  #personaje .left .text {
+    width: 90%;
+  }
+
+  /* line 377, ../../sass/components/media480.scss */
+  #contacto #info {
+    width: 100%;
+  }
+  /* line 380, ../../sass/components/media480.scss */
+  #contacto #info .direccion .icono {
+    display: none;
+  }
+  /* line 381, ../../sass/components/media480.scss */
+  #contacto #info .direccion p {
+    width: 100%;
+  }
+  /* line 384, ../../sass/components/media480.scss */
+  #contacto #info .direccion img {
+    height: auto;
+    width: 100%;
+  }
+  /* line 391, ../../sass/components/media480.scss */
+  #contacto #redesContacto .redes {
+    width: 100%;
+  }
+
+  /* line 398, ../../sass/components/media480.scss */
+  footer #footer {
+    padding-left: 5px;
+    padding-right: 5px;
+    box-sizing: border-box;
+  }
+  /* line 403, ../../sass/components/media480.scss */
+  footer #footer .right .webform-client-form-469 {
+    width: 100%;
+  }
+  /* line 407, ../../sass/components/media480.scss */
+  footer #footer .left {
+    padding: 20px 5px;
+  }
+  /* line 409, ../../sass/components/media480.scss */
+  footer #footer .left .redes {
+    justify-content: center;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    width: 100%;
+  }
+  /* line 414, ../../sass/components/media480.scss */
+  footer #footer .left .redes li:nth-child(2) {
+    margin: 0;
+  }
+}
