@@ -7,5 +7,5 @@ sites/*/files
 sites/*/private
 
 .sass-cache/
-# sites/default/themes/*/css/style.css.map
+sites/default/themes/*/css/style.css.map
 stylesheets/
