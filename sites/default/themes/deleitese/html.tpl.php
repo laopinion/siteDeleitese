@@ -121,6 +121,17 @@
   <!-- DO NOT MODIFY -->
   <!-- End Facebook Pixel Code -->
 
+  <!-- Mapa de calor -->
+  <script type="text/javascript">
+    window.smartlook || (function (d) {
+    var o = SmartLook = function () {o.api.push (argumentos)}, h = d.getElementsByTagName ( 'cabeza') [0];
+    var c = d.createElement ( 'script'); o.api = new Array (); c.async = true; c.type = 'text / javascript';
+    c.charset = 'utf-8'; c.src = 'https: //rec.smartlook.com/recorder.js'; h.appendChild (c);
+    })(documento);
+    SmartLook ( 'init', 'a2a2341660585b59f5d75fb87281b63346e5e51c');
+  </script>
+  <!-- Fin mapa de calor -->
+
 </body>
 
 </html>
