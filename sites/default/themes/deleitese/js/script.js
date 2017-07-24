@@ -369,7 +369,7 @@ $(document).ready(function(){
       var style = paisPersonaje('Marruecos-05');
       $(this).find('.personaje .info .titulo .icono').css(style);
 
-    }else if(pais == 'Mexico'){
+    }else if(pais == 'México'){
       var style = paisPersonaje('Mexico-05');
       $(this).find('.personaje .info .titulo .icono').css(style);
 
@@ -568,7 +568,7 @@ $(document).ready(function(){
       var style = paisPersonaje('Marruecos-05');
       $(this).find('.personaje .info .titulo .icono').css(style);
 
-    }else if(pais == 'Mexico'){
+    }else if(pais == 'México'){
       var style = paisPersonaje('Mexico-05');
       $(this).find('.personaje .info .titulo .icono').css(style);
 
@@ -767,7 +767,7 @@ $(document).ready(function(){
       var style = paisPersonaje('Marruecos-05');
       $($this).find('.icono').css(style);
 
-    }else if(pais == 'Mexico'){
+    }else if(pais == 'México'){
       var style = paisPersonaje('Mexico-05');
       $($this).find('.icono').css(style);
 
