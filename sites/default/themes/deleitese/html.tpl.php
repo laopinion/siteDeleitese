@@ -76,9 +76,8 @@
   <meta name="twitter:site" content="@deleitese_co" />
   <meta name="twitter:title" content="Principal portal gastronómico de Norte de Santander, noticias, promociones, restaurantes aliados - Deléitese">
   <meta name="twitter:creator" content="@deleitese_co"> 
-
-
-
+  
+  <meta property="fb:pages" content="901497259934452"/>
 
   <!-- ANALYTICS CODE -->
   <?php include_once("analyticstracking.php") ?>
