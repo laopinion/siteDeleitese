@@ -5,13 +5,14 @@ $(document).ready(function(){
       if (pago === 'Todas las tarjetas'){
           $('#establecimiento .contenido .der .down .pago').css({'background' : 'url(http://www.deleitese.co/sites/default/themes/deleitese/images/restaurantes/icon_tarjetas.svg) 0px 20px/230px auto no-repeat'});
       }else if (pago === 'Solo efectivo'){
-          $('#establecimiento .contenido .der .down .pago').css({'background' : 'url(http://www.deleitese.co/sites/default/themes/deleitese/images/restaurantes/icon_efectivo.svg) 0px 20px/60px auto no-repeat'});            
+          $('#establecimiento .contenido .der .down .pago').css({'background' : 'url(http://www.deleitese.co/sites/default/themes/deleitese/images/restaurantes/icon_efectivo.svg) 0px 20px/60px auto no-repeat'});
       };
   //TELEFONO
   var tel = $("#establecimiento .contenido .der .down .telefono .field-items .field-item").html();
-  var urlTel = "<a href=tel:" + tel + "onClick=if((navigator.userAgent.match(/Android|iPhone|iPad|iPod|Mobile/i))!=null){return true}else{window.location.assign('http://www.google.com');}>" + tel + "</a>";
+  var urlTel = "<a href=tel:" + tel + "</a>";
+  
   $("#establecimiento .contenido .der .down .telefono .field-items").append(urlTel);
-     
+
   //WEB
   var web = $("#establecimiento .contenido .der .down .web .field-items .field-item").html();
   var urlWeb = "<a href=http://" + web + " target=_blank>" + web + "</a>";
@@ -34,7 +35,7 @@ $(document).ready(function(){
     $(".menu").toggleClass("desplegar");
     // $(".fondo").toggle();
   });
-  
+
   $(".search-form").remove();
   $("header .buscador .buscar form#search-block-form .form-item-search-block-form input").attr("placeholder", "¿Qué te gustaría comer hoy?");
 
@@ -82,7 +83,7 @@ $(document).ready(function(){
     //   background : "url(../images/btn_noticias.svg) no-repeat",
     //   backgroundPosition: "25px 28px"
     // };
-    clearClass();   
+    clearClass();
     $('#header .menu .noticias').addClass('active-noticias');
   }else if(ruta == 'http://www.deleitese.co/personajes'){
     clearClass();
@@ -107,7 +108,7 @@ $(document).ready(function(){
   $.get("http://www.deleitese.co/api/v1/views/home?display_id=services_2", function( data ) {
     // console.log(data);
     for(x in data){
-      $('#home .slides .rslides').append('<li>'+data[x].imagen+'</li>');      
+      $('#home .slides .rslides').append('<li>'+data[x].imagen+'</li>');
     }
 
     $("#home .slides .rslides").responsiveSlides({
@@ -128,7 +129,7 @@ $(document).ready(function(){
       before: function(){}, // Function: Before callback
       after: function(){} // Function: After callback
     });
-    
+
   }, "jsonp");
 
   $('#home #noticias .verMas').click(function(){
@@ -188,7 +189,7 @@ $(document).ready(function(){
       var style = {
         height: 'auto'
       }
-      $('#home #modulo1 .notas').css(style);      
+      $('#home #modulo1 .notas').css(style);
       $('#home #modulo1 .notas .views-row-4, #home #modulo1 .notas .views-row-5, #home #modulo1 .notas .views-row-6').slideUp("slow");
       $(this).data('activo', 0);
       $('#home #modulo1 .notas .verMas h2').text('Ver más');
@@ -290,7 +291,7 @@ $(document).ready(function(){
       $(this).find('.personaje .info .titulo .icono').css(style);
 
     }else if(pais == 'Corea del Sur'){
-      var style = paisPersonaje('Corea-del-Sur-05');      
+      var style = paisPersonaje('Corea-del-Sur-05');
       $(this).find('.personaje .info .titulo .icono').css(style);
 
     }else if(pais == 'Costa Rica'){
@@ -489,7 +490,7 @@ $(document).ready(function(){
       $(this).find('.personaje .info .titulo .icono').css(style);
 
     }else if(pais == 'Corea del Sur'){
-      var style = paisPersonaje('Corea-del-Sur-05');      
+      var style = paisPersonaje('Corea-del-Sur-05');
       $(this).find('.personaje .info .titulo .icono').css(style);
 
     }else if(pais == 'Costa Rica'){
@@ -688,7 +689,7 @@ $(document).ready(function(){
       $($this).find('.icono').css(style);
 
     }else if(pais == 'Corea del Sur'){
-      var style = paisPersonaje('Corea-del-Sur-05');      
+      var style = paisPersonaje('Corea-del-Sur-05');
       $($this).find('.icono').css(style);
 
     }else if(pais == 'Costa Rica'){
@@ -843,7 +844,7 @@ $(document).ready(function(){
   //Home noticias
   $('#home #noticias .view-content .views-row').each(function(){
     var seccion = $(this).find('.nota .seccion').html();
-    
+
     if(seccion == 'Buena mesa'){
       var style = {
         background: 'url("http://www.deleitese.co/sites/default/themes/deleitese/images/mesa.svg") no-repeat'
@@ -868,7 +869,7 @@ $(document).ready(function(){
   //SECCION NOTAS
   $('#seccionNotas .view-content .views-row').each(function(){
     var seccion = $(this).find('.nota .seccion').html();
-    
+
     if(seccion == 'Buena mesa'){
       var style = {
         background: 'url("http://www.deleitese.co/sites/default/themes/deleitese/images/mesa.svg") no-repeat'
@@ -889,7 +890,7 @@ $(document).ready(function(){
       $(this).find('.nota .iconSeccion .icono').css(style);
     }
   });
-  
+
 
 
   //MODULO DE VIDEOS
@@ -901,7 +902,7 @@ $(document).ready(function(){
     // var plataforma = $(this).find(".plataforma").html();
     var plataforma = 'YouTube';
     if(principal == 0){
-      if(plataforma == "YouTube"){ 
+      if(plataforma == "YouTube"){
         var idYoutube = $(this).find(".id").html();
         var youtubeplayer = "<iframe class=iframeyoutube width=685 height=500px src=http://www.youtube.com/embed/" + idYoutube + "?showinfo=0&autohide=0&autoplay=" + valAutoPlay + " frameborder=0 allowfullscreen></iframe>";
         $(".view-display-id-block_4 .view-header .frameVideo").html(youtubeplayer);
@@ -933,7 +934,7 @@ $(document).ready(function(){
       }
     }
 
-    if(plataforma == "YouTube"){ 
+    if(plataforma == "YouTube"){
       contador++;
       var id = $(this).find(".id").html();
       var youtubeplayer = "<div class=youtubeplayer> <iframe class=iframeyoutube width=685 height=500px src=http://www.youtube.com/embed/" + id + "?showinfo=0&autohide=0&autoplay=" + valAutoPlay + " frameborder=0 allowfullscreen></iframe></div>";
@@ -942,7 +943,7 @@ $(document).ready(function(){
       contador++;
       var id = $(this).find(".id").html();
       var facebookplayer = "<div class=fbplayer> <div class=fb-video data-href=https://www.facebook.com/" + id + "/ data-width=685 data-show-text=false><blockquote cite=https://www.facebook.com/" + id + "/ class=fb-xfbml-parse-ignore><a href=https://www.facebook.com/" + id + "/></a></blockquote></div>";
-      $(".view-display-id-block_4 .views-row-"+contador).append(facebookplayer); 
+      $(".view-display-id-block_4 .views-row-"+contador).append(facebookplayer);
     }else if(plataforma == "Vine"){
       contador++;
       var idvine = $(this).find(".id").html();
@@ -972,7 +973,7 @@ $(document).ready(function(){
 
   $(fila + "1").click(function(){
     var youtubeplayer = $(this).find(".youtubeplayer").html();
-    var facebookplayer = $(this).find(".fbplayer").html(); 
+    var facebookplayer = $(this).find(".fbplayer").html();
     var vineplayer = $(this).find(".vineplayer").html();
     var instagramplayer = $(this).find(".instagramplayer").html();
     var twitterplayer = $(this).find(".twitterplayer").html();
@@ -1149,7 +1150,7 @@ $(document).ready(function(){
     // var plataforma = $(this).find(".plataforma").html();
     var plataforma = 'YouTube';
     if(principal == 0){
-      if(plataforma == "YouTube"){ 
+      if(plataforma == "YouTube"){
         var idYoutube = $(this).find(".id").html();
         var youtubeplayer = "<iframe class=iframeyoutube width=685 height=500px src=http://www.youtube.com/embed/" + idYoutube + "?showinfo=0&autohide=0&autoplay=" + valAutoPlay + " frameborder=0 allowfullscreen></iframe>";
         $(".view-display-id-block_1 .view-header .frameVideo").html(youtubeplayer);
@@ -1181,7 +1182,7 @@ $(document).ready(function(){
       }
     }
 
-    if(plataforma == "YouTube"){ 
+    if(plataforma == "YouTube"){
       contador++;
       var id = $(this).find(".id").html();
       var youtubeplayer = "<div class=youtubeplayer> <iframe class=iframeyoutube width=685 height=500px src=http://www.youtube.com/embed/" + id + "?showinfo=0&autohide=0&autoplay=" + valAutoPlay + " frameborder=0 allowfullscreen></iframe></div>";
@@ -1190,7 +1191,7 @@ $(document).ready(function(){
       contador++;
       var id = $(this).find(".id").html();
       var facebookplayer = "<div class=fbplayer> <div class=fb-video data-href=https://www.facebook.com/" + id + "/ data-width=685 data-show-text=false><blockquote cite=https://www.facebook.com/" + id + "/ class=fb-xfbml-parse-ignore><a href=https://www.facebook.com/" + id + "/></a></blockquote></div>";
-      $(".view-display-id-block_1 .views-row-"+contador).append(facebookplayer); 
+      $(".view-display-id-block_1 .views-row-"+contador).append(facebookplayer);
     }else if(plataforma == "Vine"){
       contador++;
       var idvine = $(this).find(".id").html();
@@ -1220,7 +1221,7 @@ $(document).ready(function(){
 
   $(filaRecetas + "1").click(function(){
     var youtubeplayer = $(this).find(".youtubeplayer").html();
-    var facebookplayer = $(this).find(".fbplayer").html(); 
+    var facebookplayer = $(this).find(".fbplayer").html();
     var vineplayer = $(this).find(".vineplayer").html();
     var instagramplayer = $(this).find(".instagramplayer").html();
     var twitterplayer = $(this).find(".twitterplayer").html();
@@ -1446,9 +1447,9 @@ $(document).ready(function(){
       $('#home #modulo3 .verMas h2').text('Ver más');
     }
   });
-                    
+
    $(window).scroll(function() {
-   var scrolled = $(window).scrollTop();           
+   var scrolled = $(window).scrollTop();
     $('.slide').css({'background-position' : '50% '+ (-(scrolled / 5)) + 'px'});
     $('.buena_mesa').css({'background-position' : '50% '+ (-(scrolled / 5)) + 'px'});
     $('.cronograma').css({'background-position' : '50% '+ (-(scrolled / 30)) + 'px'});
@@ -1459,7 +1460,7 @@ $(document).ready(function(){
     $('.seccion_di').css({'background-position' : '50% '+ (-(scrolled / 5)) + 'px'});
     $('.seccion_cm').css({'background-position' : '50% '+ (-(scrolled / 5)) + 'px'});
     $('#personaje .branding img').css({'background-position' : '50% '+ (-(scrolled / 5)) + 'px'});
-    
+
     if(scrolled >= "50"){
       $("#logo_home").css({opacity:"0"});
       $("#seccion .head").css({opacity:"0"});
@@ -1512,39 +1513,39 @@ $(document).ready(function(){
     //RECETAS
     var varContentR = ".view-home.view-display-id-block_4 .views-row";
     $(varContentR).mouseover(function(){
-        $(this).find(".info").css({opacity:"1", top:"0px", left:"0px"}); 
-        $(this).find(".icon").css({opacity:"0", display:"none"}); 
-    });    
-    
+        $(this).find(".info").css({opacity:"1", top:"0px", left:"0px"});
+        $(this).find(".icon").css({opacity:"0", display:"none"});
+    });
+
     $(varContentR).mouseleave(function(){
-        $(this).find(".info").css({opacity:"0", top:"0px", left:"0px"}); 
-        $(this).find(".icon").css({opacity:"1", display:"block"}); 
+        $(this).find(".info").css({opacity:"0", top:"0px", left:"0px"});
+        $(this).find(".icon").css({opacity:"1", display:"block"});
     });
 
     //ESTABLECIMIENTOS
     var varContentR = ".view-home.view-display-id-block_5 .views-row";
     $(varContentR).mouseover(function(){
-        $(this).find(".info").css({display:"block", opacity:"1", top:"0px", left:"150px"}); 
-    });        
+        $(this).find(".info").css({display:"block", opacity:"1", top:"0px", left:"150px"});
+    });
     $(varContentR).mouseleave(function(){
-        $(this).find(".info").css({display:"none", opacity:"0", top:"0px", left:"0px"}); 
+        $(this).find(".info").css({display:"none", opacity:"0", top:"0px", left:"0px"});
     });
 
     //DIRECTORIO
     var varContentR = ".view-secciones.view-display-id-block_3 .views-row";
     $(varContentR).mouseover(function(){
-        $(this).find(".info").css({display:"block", opacity:"1", left:"-350px"}); 
-    });        
+        $(this).find(".info").css({display:"block", opacity:"1", left:"-350px"});
+    });
     $(varContentR).mouseleave(function(){
-        $(this).find(".info").css({display:"none", opacity:"0", left:"0px"}); 
+        $(this).find(".info").css({display:"none", opacity:"0", left:"0px"});
     });
 
 
 
     //Scroll EFECTO PARALLAX
     $(window).scroll(function() {
-        var scrolled = $(window).scrollTop();           
+        var scrolled = $(window).scrollTop();
         $('#articulo .foto img').css({'background-position' : '50% '+ (-(scrolled / 2)) + 'px'});
     }); // window scroll Ends
 
-}); 
+});
