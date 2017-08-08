@@ -9,8 +9,8 @@ $(document).ready(function(){
       };
   //TELEFONO
   var tel = $("#establecimiento .contenido .der .down .telefono .field-items .field-item").html();
-  var urlTel = "<a href=tel:" + tel + "</a>";
-  
+  var urlTel = "<a href=tel:" + tel + " > "+ tel + "</a>";
+
   $("#establecimiento .contenido .der .down .telefono .field-items").append(urlTel);
 
   //WEB
