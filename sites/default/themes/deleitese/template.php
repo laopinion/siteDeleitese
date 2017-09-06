@@ -9,6 +9,12 @@ function framework_html_head_alter(&$head_elements) {
   );
 }
 
+function deleitese_html_head_alter(&$head_elements) {
+  $head_elements['system_meta_content_type']['#attributes'] = array(
+    'charset' => 'utf-8'
+  );
+}
+
 /**
  * Return a themed breadcrumb trail.
  *
