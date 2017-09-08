@@ -13,15 +13,12 @@
   </div>
 </div>
 
-
-
-
 <div id="articulo" class="url-principal" data-urlp="">
   <div class="foto"><?php print render($content['field_image']);?></div> 
     <div class="contenido">
       <div class="seccion"><?php print render($content['field_seccion']);?></div>
       <?php if (!empty($content['field_tags'])){  print "<div class=etiquetas>".render($content['field_tags'])."</div>"; } ?>
-      <h1 class="titulo"><?php print $title;?></h1>
+      <h2 class="titulo"><?php print $title;?></h2>
       <div class="texto"><?php print render($content['body']);?></div> 
       <div class="fecha"><?php print render($content['field_fecha']);?></div>
       <div class="autor"><?php print render($content['field_autor']);?></div>
@@ -41,7 +38,7 @@
               <div class="contenido">
                 <div class="seccion" ng-bind-html="dato.seccion"></div>
                 <div class="etiquetasScroll" ng-bind-html="dato.temas"></div>
-                <h1 class="titulo" ng-bind-html="dato.title"></h1>  
+                <h2 class="titulo" ng-bind-html="dato.title"></h2>  
                 <div ng-bind-html="dato.field_body" class="texto"></div>
                 <div class="fecha" ng-bind-html="dato.fecha"></div>
                 <div class="autor" ng-bind-html="dato.autor"></div>

@@ -10,7 +10,7 @@
   <section id="header">
     <div class="center">        
       <div id="logo">
-        <h1><a class="logo" href="<?php print base_path(); ?>"></a></h1>
+        <h1><a class="logo" href="<?php print base_path(); ?>">Deleitese</a></h1>
       </div>
       <div class="btnSeguir">
         <div class="fb-like" data-href="https://www.facebook.com/deleitese.co" data-layout="button_count" data-action="like" data-show-faces="true" data-share="false"></div>

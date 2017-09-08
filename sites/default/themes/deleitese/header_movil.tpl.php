@@ -18,7 +18,7 @@
         <span></span>
       </div>
       <div id="logo">
-        <h1><a class="logo" href="<?php print base_path(); ?>"></a></h1>
+        <div class="h1Logo"><a class="logo" href="<?php print base_path(); ?>"></a></div>
       </div>
     </section>
     <div class="menu">
