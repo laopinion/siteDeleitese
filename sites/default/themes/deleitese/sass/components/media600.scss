@@ -124,8 +124,24 @@
     }
   }//Fin secciones 
 
-  #search .resultados .resultado {
-    width: 100%;
-  }
+  #search {
+    .resultados{
+      .item-list .pager {
+        display: flex;
+        -webkit-display: flex;
+        -moz-display: flex;
+        flex-wrap: wrap;
+        -webkit-flex-wrap: wrap;
+        -moz-flex-wrap: wrap;
+        width: 300px;
+        .pager-item {
+          margin-bottom: 20px;
+        }
+      }
+      .resultado{
+        width: 100%;
+      }
+    }
+  }// Fin search
   
 }
