@@ -68,7 +68,7 @@ $(document).ready(function(){
   }
 
   //Location menu options;
-  var ruta = window.location;
+  var ruta = window.location.href;
   function clearClass() {
      $('#header .menu').each(function(){
       if($(this).hasClass('active-noticias') || $(this).hasClass('active-personajes') || $(this).hasClass('active-recetas') || $(this).hasClass('active-restaurantes') || $(this).hasClass('active-promociones') || $(this).hasClass('active-foodies') || $(this).hasClass('active-contactos')){
@@ -78,29 +78,29 @@ $(document).ready(function(){
     });
   }
   //Cambiar la ruta por la de producción
-  if(ruta == 'http:www.deleitese.co/' || ruta == 'http:www.deleitese.co/lo-nuestro'){
+  if (ruta == 'http:www.deleitese.co/' || ruta == 'http:www.deleitese.co/noticias' || ruta == 'http://localhost/siteDeleitese/noticias'){
     // var styles = {
     //   background : "url(../images/btn_noticias.svg) no-repeat",
     //   backgroundPosition: "25px 28px"
     // };
     clearClass();
     $('#header .menu .noticias').addClass('active-noticias');
-  }else if(ruta == 'http://www.deleitese.co/personajes'){
+  } else if (ruta == 'http://www.deleitese.co/personajes' || ruta == 'http://localhost/siteDeleitese/personajes'){
     clearClass();
     $('#header .menu .personajes').addClass('active-personajes');
-  }else if(ruta == 'http://www.deleitese.co/recetas'){
+  } else if (ruta == 'http://www.deleitese.co/recetas' || ruta == 'http://localhost/siteDeleitese/recetas'){
     clearClass();
     $('#header .menu .recetas').addClass('active-recetas');
-  }else if(ruta == 'http://www.deleitese.co/restaurantes'){
+  } else if (ruta == 'http://www.deleitese.co/restaurantes' || ruta == 'http://localhost/siteDeleitese/restaurantes'){
     clearClass();
     $('#header .menu .restaurantes').addClass('active-restaurantes');
-  }else if(ruta == 'http://www.deleitese.co/promociones'){
+  } else if (ruta == 'http://www.deleitese.co/recomendados' || ruta == 'http://localhost/siteDeleitese/recomendados'){
     clearClass();
     $('#header .menu .promociones').addClass('active-promociones');
-  }else if(ruta == 'http://www.deleitese.co/foodies'){
+  } else if (ruta == 'http://www.deleitese.co/foodies' || ruta == 'http://localhost/siteDeleitese/foodies'){
     clearClass();
     $('#header .menu .foodies').addClass('active-foodies');
-  }else if(ruta == 'http://www.deleitese.co/contacto'){
+  } else if (ruta == 'http://www.deleitese.co/contacto' || ruta == 'http://localhost/siteDeleitese/contacto'){
     clearClass();
     $('#header .menu .contactos').addClass('active-contactos');
   }
