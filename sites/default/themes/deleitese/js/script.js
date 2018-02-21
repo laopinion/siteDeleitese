@@ -8,8 +8,8 @@ $(document).ready(function(){
           $('#establecimiento .contenido .der .down .pago').css({'background' : 'url(http://www.deleitese.co/sites/default/themes/deleitese/images/restaurantes/icon_efectivo.svg) 0px 20px/60px auto no-repeat'});
       };
   //TELEFONO
-  var tel = $("#establecimiento .contenido .der .down .telefono .field-items .field-item").html();
-  var urlTel = "<a href=tel:" + tel + " > "+ tel + "</a>";
+  var tel = $("#establecimiento .contenido .der .down .telefono .field-items .field-item").text();
+  var urlTel = "<a href='tel:+57" + tel + "' > "+ tel + "</a>";
 
   $("#establecimiento .contenido .der .down .telefono .field-items").append(urlTel);
 

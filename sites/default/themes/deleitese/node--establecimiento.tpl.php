@@ -147,13 +147,30 @@
                 <div class="pago"><span>Medios de pago:</span> <?php print render($content['field_medios_de_pago']);?></div>
             </div>
             <!--Mapa--><div class="mapa"><?php print render($content['field_mapa']);?></div><!--FIN Mapa-->
+            <?php
+            if (!empty($content['field_menu'])){ 
+                print "<div class=menur><div class=titulo><div class=icon></div><div class=txt></div></div></div>";
+                }
+            ?>
+            <div class="w3-content w3-display-container">
+                <!-- <img class="mySlides" src="https://cdn.pixabay.com/photo/2017/08/31/11/55/wedding-2700495_960_720.jpg" style="width:100%"> -->
+                <?php 
+                    if (!empty($node->field_menu)) {   
+                    $i=0;
+                        foreach($node->field_menu['und'] as $imagen) {           
+                            $item = substr($content['field_menu'][$i]['#item']['uri'],8);
+                            print "
+                            <img class=mySlides  style=width:100% src='".base_path()."sites/default/files".$item."' alt='".render($content['field_menu'][$i]['#item']['alt'])."'/>";
+                            $i++;
+                        }   
+                    }    
+                ?> 
+                <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+                <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;	</button>
+            </div>
         </div>
-        <?php
-          if (!empty($content['field_menu'])){ 
-            print "<div class=menur><div class=titulo><div class=icon></div><div class=txt></div></div></div>";
-            }
-          ?>
-          <script>
+        
+        <script>
             jssor_slider1_starter = function (containerId) {
                 var options = {
                     $AutoPlay: true,
@@ -194,38 +211,36 @@
                 //responsive code end
             };
         </script>
-        <div id="slider2_container" style="position: relative; top: 0px; left: 0px; width: 100%;height: 650px; overflow: hidden;">
-            <!-- Slides Container -->
-            <div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 100%; height: 650px;overflow: hidden;">
-                <?php 
-                if (!empty($node->field_menu)) {   
-                  $i=0;
-                  foreach($node->field_menu['und'] as $imagen) {           
-                    $item = substr($content['field_menu'][$i]['#item']['uri'],8);
-                    print "<div>";
-                    print "
-                        <img u=image src='".base_path()."sites/default/files".$item."' alt='".render($content['field_menu'][$i]['#item']['alt'])."'/>
-                      </div>";
-                        $i++;
-                        }   
-                    }    
-                ?> 
-            </div>
-            <style>
-                .jssora13l, .jssora21r {display: block;position: absolute;width: 55px;height: 55px;cursor: pointer;overflow: hidden;}
-                .jssora13l {top: 10px; left: -1px; background: url(http://www.deleitese.co/sites/default/themes/deleitese/images/btn_slide_izq.svg) 0px 0px/60px auto no-repeat; }
-                .jssora13r {top: 10px; right: 2px; background: url(http://www.deleitese.co/sites/default/themes/deleitese/images/btn_slide_der.svg) 0px 0px/60px auto no-repeat; }
-                .jssora13l:hover { opacity: 0.8; }
-                .jssora13r:hover {  opacity: 0.8;}
-                .jssora13l.jssora13ldn { background-position: -243px -33px; }
-                .jssora13r.jssora13rdn { background-position: -303px -33px; }
-            </style>
-            <span u="arrowleft" class="jssora13l"></span>
-            <span u="arrowright" class="jssora13r"></span>
-            <!-- Trigger -->
-            <script>
-                jssor_slider1_starter('slider2_container');
-            </script>
-        </div>
+        <script>
+            window.onkeyup = function(event){
+                // console.log(event.keyCode);
+            // 	right keyCode  = 39
+                if (event.keyCode == 39) {
+                    plusDivs(1);
+                } else {
+                    plusDivs(-1);
+                }
+            }
+
+            // Mas examples -> https://www.w3schools.com/w3css/w3css_slideshow.asp
+
+            let slideIndex = 1;
+            showDivs(slideIndex);
+
+            function plusDivs(n) {
+                showDivs(slideIndex += n);
+            }
+
+            function showDivs(n) {
+                var i;
+                var x = document.getElementsByClassName("mySlides");
+                if (n > x.length) {slideIndex = 1}    
+                if (n < 1) {slideIndex = x.length}
+                for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";  
+                }
+                x[slideIndex-1].style.display = "block";  
+            }
+        </script>
     </div>  
 </div>
