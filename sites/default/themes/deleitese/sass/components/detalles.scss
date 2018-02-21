@@ -243,9 +243,10 @@
                     text-indent: -99999px;
                     outline: none;
                     position: absolute;
-                    top: 0;
+                    // top: 0;
+                    bottom: 60px;
                     height: 60px;
-                    width: 60px;
+                    width: 55px;
                 }
                 .w3-display-left {
                     background: url(../images/btn_slide_izq.svg) no-repeat;                    
