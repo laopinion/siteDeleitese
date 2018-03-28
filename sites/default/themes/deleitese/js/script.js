@@ -1559,7 +1559,7 @@ $(document).ready(function(){
     const email = data.get('email');
     const fname = data.get('fname');
 
-    $.post('http://localhost/siteDeleitese/sites/default/themes/deleitese/mailchimpApi.php', { email: email, fname: fname }, function (data, status) {
+    $.post('http://www.deleitese.co/sites/default/themes/deleitese/mailchimpApi.php', { email: email, fname: fname }, function (data, status) {
       // console.log(data);
       // console.log(status);
       if (status == 'success') {
