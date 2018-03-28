@@ -8,3 +8,5 @@ sites/*/private
 .sass-cache/
 sites/default/themes/*/css/style.css.map
 stylesheets/
+
+mailchimpkey.tpl.php

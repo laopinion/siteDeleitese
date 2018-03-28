@@ -83,7 +83,18 @@
       </div>
       <div class="newsletter">
         <h3></h3>
-        <!--formulario--><?php $block = module_invoke('webform', 'block_view', 'newsletter-552');print render($block['content']); ?><!--FIN formulario-->
+        <!--formulario--><?php //$block = module_invoke('webform', 'block_view', 'newsletter-552');print render($block['content']); ?><!--FIN formulario-->
+        <form id="newsletterForm">
+          <input type="text" name="fname" placeholder="Nombre y apellido" required />
+          <input type="email" name="email" placeholder="Correo electrónico" required />
+          <div class="terminos">
+            <input type="radio" name="terminos" value="Acepta terminos y condiciones y leí la política de tratamiento de los datos personales" required>
+            <label class="option" for="edit-submitted-terminos-y-condiciones-de-uso-1">Acepto la <a href="http://www.deleitese.co/politica-de-tratamiento-de-datos-personales" target="_blank"> política de tratamiento de los datos personales</a> </label>
+          </div>
+          <div class="form-actions">
+            <input type="submit" name="enviar" value="Enviar">
+          </div>
+        </form>
       </div>
       <div class="personajes">
         <?php $view = views_get_view('home'); print $view->preview('block_1'); ?>

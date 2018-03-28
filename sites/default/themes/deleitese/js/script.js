@@ -1548,4 +1548,37 @@ $(document).ready(function(){
         $('#articulo .foto img').css({'background-position' : '50% '+ (-(scrolled / 2)) + 'px'});
     }); // window scroll Ends
 
+  /* Mailchimp Form */
+  const $form = document.getElementById('newsletterForm');
+  // console.info($form);
+
+  const syncMailchimp = function (event) {
+    event.preventDefault();
+    // console.log('hola mundo');
+    const data = new FormData($form);
+    const email = data.get('email');
+    const fname = data.get('fname');
+
+    $.post('http://localhost/siteDeleitese/sites/default/themes/deleitese/mailchimpApi.php', { email: email, fname: fname }, function (data, status) {
+      // console.log(data);
+      // console.log(status);
+      if (status == 'success') {
+        // $('#message').show();
+        if (data == 200) {
+          // $('#newsletterForm').hide();
+          $('#newsletterForm').html('<span>Gracias por suscribirse.</span>');
+        } else {
+          $('#newsletterForm').html('<span>Algo salio mal!</span>');
+        }
+      } else {
+        // $('#message').show();
+        $('#newsletterForm').html('<span>Algo salio mal!</span>');
+      }
+    });
+  }
+
+  if ($form != null) {
+    $form.addEventListener('submit', syncMailchimp);
+  }
+
 });

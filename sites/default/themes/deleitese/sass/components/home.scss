@@ -646,6 +646,71 @@
           }
         }
       }
+
+      #newsletterForm {
+        width: 840px;
+        margin: 0 auto;
+        padding-bottom: 5px;
+        border-bottom: 1px solid $orange;
+        display: flex;
+        display: -webkit-flex;
+        display: -moz-flex;
+        flex-wrap: wrap;
+        -webkit-flex-wrap: wrap;
+        -moz-flex-wrap: wrap;
+        justify-content: space-around;
+        -webkit-justify-content: space-around;
+        -moz-justify-content: space-around;
+        span {
+          color: #ffffff;
+          font-size: 18px;
+          text-align: center;
+          margin: 50px;
+        }
+        .terminos{
+          display: flex;
+          display: -webkit-flex;
+          display: -moz-flex;
+          justify-content: center;
+          -webkit-justify-content: center;
+          -moz-justify-content: center;
+          margin: 12px 0 0 0;
+          width: 100%;
+          input{
+            margin: 0;
+            height: 18px;
+            width: 50px;
+          }
+          label{
+            color: #ffffff;
+            a{
+              text-decoration: none;
+              color: #ffffff;
+            }
+          }
+        }
+        input{
+          margin-top: 8px;
+          background-color: #EAEAEA;
+          border: none;
+          height: 50px;
+          padding-left: 10px;
+          width: 390px;
+        }
+        .form-actions{
+          margin: 5px 0 0 0;
+          input{
+            background:url(../images/newsletterBtn.svg) no-repeat;
+            background-position: 0px -3px;
+            background-size: 130px;
+            text-indent: -9999px;
+            height: 45px;
+            border: none;
+            margin: 0 auto;
+            width: 130px;
+          }
+        }
+      }
     }
 
     .newsletter:before{
