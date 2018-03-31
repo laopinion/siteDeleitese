@@ -1,5 +1,18 @@
 <div class="emergentes">
   <div class="content">
+    <div class="newsletter">
+      <form id="newsletterForm">
+        <input type="text" name="fname" placeholder="Nombre y apellido" required />
+        <input type="email" name="email" placeholder="Correo electrónico" required />
+        <div class="terminos">
+          <input type="radio" name="terminos" value="Acepta terminos y condiciones y leí la política de tratamiento de los datos personales" required>
+          <label class="option" for="edit-submitted-terminos-y-condiciones-de-uso-1">Acepto la <a href="http://www.deleitese.co/politica-de-tratamiento-de-datos-personales" target="_blank"> política de tratamiento de los datos personales</a> </label>
+        </div>
+        <div class="form-actions">
+          <input type="submit" name="enviar" value="Enviar">
+        </div>
+      </form>
+    </div>
     <!--Rutas--><?php $view = views_get_view('detalle'); print $view->preview('block_7'); ?><!--FIN Rutas-->
     <div class="pauta p300x250"><div class="info">
       <script async type='text/javascript' src='//s.clickiocdn.com/t/common_258.js'></script>
@@ -11,6 +24,20 @@
     </div>
     <!--Donde--><?php // $view = views_get_view('detalle'); print $view->preview('block_7'); ?><!--FIN Donde-->
   </div>
+</div>
+
+<div class="newsletter" style="display: none;">
+  <form id="newsletterForm">
+    <input type="text" name="fname" placeholder="Nombre y apellido" required />
+    <input type="email" name="email" placeholder="Correo electrónico" required />
+    <div class="terminos">
+      <input type="radio" name="terminos" value="Acepta terminos y condiciones y leí la política de tratamiento de los datos personales" required>
+      <label class="option" for="edit-submitted-terminos-y-condiciones-de-uso-1">Acepto términos y condiciones</label>
+    </div>
+    <div class="form-actions">
+      <input type="submit" name="enviar" value="Enviar">
+    </div>
+  </form>
 </div>
 
 <div id="articulo" class="url-principal" data-urlp="">

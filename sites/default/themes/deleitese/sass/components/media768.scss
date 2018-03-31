@@ -354,6 +354,84 @@
     }
   }//Fin home
 
+  .newsletter{
+    display: block !important;
+    position: fixed;
+    bottom: 0;
+    background: url(../images/marcoNewsletterMovil.png) no-repeat;
+    // background-color: #474747;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    height: 207px;
+    width: 320px;
+    z-index: 1000;
+    #newsletterForm {
+      width: 270px;
+      margin: 0 0px 0 35px;
+      padding-bottom: 5px;
+      border-bottom: 1px solid $orange;
+      display: flex;
+      display: -webkit-flex;
+      display: -moz-flex;
+      flex-direction: column;
+      -webkit-flex-direction: column;
+      -moz-flex-direction: column;
+      align-items: center;
+      -webkit-align-items: center;
+      -moz-align-items: center;
+      span {
+        color: #ffffff;
+        font-size: 18px;
+        text-align: center;
+        margin: 50px;
+      }
+      .terminos{
+        display: flex;
+        display: -webkit-flex;
+        display: -moz-flex;
+        justify-content: center;
+        -webkit-justify-content: center;
+        -moz-justify-content: center;
+        margin: 12px 0 0 0;
+        width: 100%;
+        input{
+          margin: 0;
+          height: 18px;
+          width: 50px;
+        }
+        label{
+          color: #ffffff;
+          a{
+          text-decoration: none;
+          color: #ffffff;
+          }
+        }
+      }
+      input{
+        margin-top: 8px;
+        background-color: #EAEAEA;
+        border: none;
+        height: 30px;
+        padding-left: 10px;
+        box-sizing: border-box;
+        width: 100%;
+      }
+      .form-actions{
+        margin: 15px 0 0 0;
+        input{
+          background:url(../images/newsletterBtn.svg) no-repeat;
+          background-position: 0px -3px;
+          background-size: 130px;
+          text-indent: -9999px;
+          height: 45px;
+          border: none;
+          margin: 0 auto;
+          width: 130px;
+        }
+      }
+    }
+  }
 
   #seccionNotas{
     .item-list{
