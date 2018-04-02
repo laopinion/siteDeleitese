@@ -27,6 +27,7 @@
 </div>
 
 <div class="newsletter" style="display: none;">
+  <h3>Suscríbete para recibir nuestro boletín</h3>
   <form id="newsletterForm">
     <input type="text" name="fname" placeholder="Nombre y apellido" required />
     <input type="email" name="email" placeholder="Correo electrónico" required />
