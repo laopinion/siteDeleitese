@@ -19,10 +19,16 @@
 //FIN PAGINAS
 
 //NOTAS
-.emergentes{display:block; position: fixed;top: 260px; bottom: 0px; right:0px; width: 350px;height: 720px;background: url(../images/marcoNotasNew.png) -3px -3px/360px auto no-repeat transparent;z-index:1;
+.emergentes{display:block; position: fixed;top: 260px; bottom: 0px; right:0px; width: 350px;height: 655px;background: url(../images/marcoNotasNew.png) -3px -3px/360px auto no-repeat transparent;z-index:1;
     .content{float:right; position:relative;background: #474747;border: 2px solid #000;padding: 5px 10px 0 10px;width: 300px;
       .newsletter{
         margin-bottom: 20px;
+        h3{
+            font-size: 14px;
+            text-align: center;
+            margin: 8px auto 0;
+            color: #ffffff;
+        }
         #newsletterForm {
           width: 290px;
           margin: 0 auto;
@@ -182,6 +188,10 @@
     .texto{color:#333; font-weight:300;font-size:16px;line-height:18px;width: 75%;position: relative;
         a{color:#FF8801; text-decoration:none;}
         a:hover{text-decoration:underline;}
+        img{
+            height: auto;
+            width: 100%;
+        }
     }
     .fecha{padding:0px 10px;font-size:14px; font-weight:400; color:#FF8801; height: auto;width: 75%;margin: 10px 0px;}
     .autor{

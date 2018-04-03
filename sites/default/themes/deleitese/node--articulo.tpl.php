@@ -1,6 +1,7 @@
 <div class="emergentes">
   <div class="content">
     <div class="newsletter">
+      <h3>Suscríbete para recibir nuestro boletín</h3>
       <form id="newsletterForm">
         <input type="text" name="fname" placeholder="Nombre y apellido" required />
         <input type="email" name="email" placeholder="Correo electrónico" required />
