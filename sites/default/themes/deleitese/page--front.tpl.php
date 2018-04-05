@@ -88,7 +88,7 @@
           <input type="text" name="fname" placeholder="Nombre y apellido" required />
           <input type="email" name="email" placeholder="Correo electrónico" required />
           <div class="terminos">
-            <input type="radio" name="terminos" value="Acepta terminos y condiciones y leí la política de tratamiento de los datos personales" required>
+            <input type="radio" name="terminos" value="Acepta terminos y condiciones" required>
             <label class="option" for="edit-submitted-terminos-y-condiciones-de-uso-1">Acepto la <a href="http://www.deleitese.co/politica-de-tratamiento-de-datos-personales" target="_blank"> política de tratamiento de los datos personales</a> </label>
           </div>
           <div class="form-actions">

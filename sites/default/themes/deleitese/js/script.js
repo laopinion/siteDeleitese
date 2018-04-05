@@ -1558,8 +1558,13 @@ $(document).ready(function(){
     const data = new FormData($form);
     const email = data.get('email');
     const fname = data.get('fname');
+    const terminos = data.get('terminos');
 
-    $.post('http://www.deleitese.co/sites/default/themes/deleitese/mailchimpApi.php', { email: email, fname: fname }, function (data, status) {
+    $.post('http://www.deleitese.co/sites/default/themes/deleitese/mailchimpApi.php', { 
+        email: email, 
+        fname: fname,
+        terminos: terminos
+      }, function (data, status) {
       // console.log(data);
       // console.log(status);
       if (status == 'success') {

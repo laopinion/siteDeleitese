@@ -5,7 +5,8 @@
     'email'     => $_POST['email'],
     'status'    => 'subscribed',
     'firstname' => $_POST['fname'],
-    'lastname'  => 'No found'
+    'lastname'  => 'No found',
+    'terminos'  => $_POST['terminos'],
   ];
 
   $apiKey = $keys['apiKey'];
@@ -27,7 +28,9 @@
         'status'        => $data['status'], // "subscribed","unsubscribed","cleaned","pending"
         'merge_fields'  => [
             'FNAME'     => $data['firstname'],
-            'LNAME'     => $data['lastname']
+            'LNAME'     => $data['lastname'],
+            'TERMINOS'     => $data['terminos'],
+            'CUMPLE'     => '',
         ]
     ]);
 
