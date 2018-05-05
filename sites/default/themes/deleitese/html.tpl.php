@@ -6,7 +6,8 @@
 <head>
   <?php print $head; ?>
   <!-- Set the viewport width to device width for mobile -->
-  <meta name="viewport" content="width=device-width, height=device-height" >
+  <!-- <meta name="viewport" content="width=device-width, height=device-height" > -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
   <meta name="robots" content="index, follow">
   <meta itemprop="genre" content="Food" />
   <meta itemprop="inLanguage" content="es-ES" />
