@@ -1401,15 +1401,15 @@ $(document).ready(function(){
   var token = "2226104334.4571e32.be35e3ad0a134da8ac6288179d318c32",
     username = "deleitese_co",
     num_photos = 8;
-
+  // https://api.instagram.com/v1/users/self/?access_token=2226104334.4571e32.be35e3ad0a134da8ac6288179d318c32
   $.ajax({
-    url: 'https://api.instagram.com/v1/users/search',
-    data: {q: username, access_token: token},
+    url: 'https://api.instagram.com/v1/users/self',
+    data: {access_token: token},
     dataType: 'jsonp',
     success: function(data){
       // console.log(data);
       $.ajax({
-        url: 'https://api.instagram.com/v1/users/' + data.data[0].id + '/media/recent',
+        url: 'https://api.instagram.com/v1/users/' + data.data.id + '/media/recent',
         dataType: 'jsonp',
         data: {access_token: token, count: num_photos},
         success: function(data2){
