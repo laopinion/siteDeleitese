@@ -140,7 +140,13 @@
                 <div class="direccion"><?php print render($content['field_direccion']);?></div>
                 <div class="telefono"><?php print render($content['field_llamar']);?></div>
                 <div class="horarios"><?php print render($content['field_horarios']);?></div>
-                <div class="web"><?php print render($content['field_web']);?></div>
+                <div class="web">
+                <?php
+                    if (!empty($content['field_web'])){
+                        print render($content['field_web']);
+                    }
+                ?>
+                </div>
                 <!--<div class="facebook"><?php // print render($content['field_facebook']);?></div>-->
                 <div class="facebook"><?php print render($content['field_facebook_']);?></div>
                 <div class="instagram"><?php print render($content['field_instagram']);?></div>
@@ -221,8 +227,6 @@
                     plusDivs(-1);
                 }
             }
-
-            // Mas examples -> https://www.w3schools.com/w3css/w3css_slideshow.asp
 
             let slideIndex = 1;
             showDivs(slideIndex);
