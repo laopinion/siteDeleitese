@@ -28,7 +28,8 @@
   <link rel="apple-touch-icon-precomposed" sizes="180x180" href="<?php print base_path(); ?>sites/default/themes/deleitese/images/icon/touch-icon-iphone-6-plus.png">
   <!--FIN Icono precomposed-->
   <!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>-->
-  <script type="text/javascript" src="<?php print base_path(); ?>sites/default/themes/deleitese/js/jquery-1.10.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!-- <script type="text/javascript" src="<?php print base_path(); ?>sites/default/themes/deleitese/js/jquery-1.10.min.js"></script> -->
   <script type="text/javascript" src="<?php print base_path(); ?>sites/default/themes/deleitese/js/script.js"></script>
   <script type="text/javascript" src="<?php print base_path(); ?>sites/default/themes/deleitese/js/slide.js"></script>
   <!--<script type="text/javascript" src="<?php // print base_path(); ?>sites/default/themes/deleitese/js/functions.js"></script>-->

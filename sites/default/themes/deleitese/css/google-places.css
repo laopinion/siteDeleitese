@@ -1,0 +1,128 @@
+/* .review-stars ul {
+  display: inline-block;
+  list-style: none;
+}
+
+.review-stars ul li {
+  float: left;
+  margin-right: 5px;
+}
+
+.review-stars ul li i {
+  color: #E4B248;
+  font-size: 12px;
+}
+
+.review-stars ul li i.inactive {
+  color: #c6c6c6;
+}
+.star:after {
+  content: "\2605";
+} */
+
+/* ---- */
+
+#map-plug {display:none;}
+
+#google-reviews {
+  display:flex;
+  flex-direction: column;
+  /* flex-wrap:wrap; */
+}
+
+.reviews {
+  margin-top: 50px;
+  float: left;
+}
+
+.reviews h3 {
+  margin: 0 auto 40px auto;
+  text-align: center;
+  border-bottom: 1px solid #f7931e;
+  padding-bottom: 20px;
+  width: 275px;
+  font-size: 24px;
+  color: #303030;
+}
+
+.review-item {
+  /* border:solid 1px rgba(190,190,190,.35); */
+  margin:0 auto;
+  padding:1em;
+  /* flex: 1 1 20%; */
+  box-sizing: border-box;
+  border-bottom: 1px solid #dadada;
+  width: 100%;
+}
+
+/* .reviews .create span{
+  background: url('http://docker.test/sites/default/themes/deleitese/images/flecha.svg') no-repeat;
+  background-position: 0px 5px;
+  height: 50px;
+  width: 77px;
+  display: block;
+  position: absolute;
+  z-index: 0;
+} */
+
+.reviews .create a:hover { 
+  background: #f7921ede;
+}
+
+.reviews .create a { 
+  background: #f7931e;
+  text-decoration: none;
+  color: #ffffff;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  width: 150px;
+}
+
+
+.reviews .create {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+  position: relative;
+}
+
+.review-meta {
+  display: flex;
+  flex-direction: column;
+}
+
+.review-meta  .profile_photo {
+  margin-bottom: 10px;
+}
+
+.review-meta, .review-stars {text-align:center; font-size:115%;}
+.review-author { text-transform: capitalize; font-weight:bold;  color: #303030; }
+.review-date {opacity:.6; display:block;}
+.review-text {  line-height:1.55; text-align:left; max-width:32em; margin:auto;  color: #303030;}
+
+ 
+
+.review-stars ul {
+  display: inline-block;
+  list-style: none !important;
+  margin:0; padding:0;
+}
+
+.review-stars ul li {
+  float: left;
+  list-style: none !important;
+  margin-right: 1px;
+  line-height:1;
+}
+
+.review-stars ul li i {
+  color: #f7931e;
+  font-size: 1.4em;
+  font-style:normal;
+}
+.review-stars ul li i.inactive { color: #c6c6c6;}
+.star:after { content: "\2605"; }
