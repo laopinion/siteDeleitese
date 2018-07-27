@@ -1428,7 +1428,7 @@ $(document).ready(function(){
   //     console.log(data);
   //   }
   // });
-  const token_instagram = '2226104334.4571e32.0091783b15134193957137c3603a488b';
+  const token_instagram = '2226104334.4571e32.183204cf7da74daeb62075a518b63136';
   const num_photos = 8;
   const uri_api_instagram = `https://api.instagram.com/v1/users/self/media/recent/?access_token=${token_instagram}&count=${num_photos}`
 
@@ -1443,6 +1443,9 @@ $(document).ready(function(){
         '<li class="row'+index+'"><a href="'+item.link+'" target=_blank></a> <img src="'+item.images.standard_resolution.url+'"> <div class=data> <i class=icono></i><aside class=likes>'+item.likes.count+' me gusta</aside> </div> </li>'
       );
     })
+  })
+  .catch(function (err) {
+    console.log(`Algo salio mal :( ${err}`);
   })
 
   $('#home #modulo3 .verMas').click(function(){
