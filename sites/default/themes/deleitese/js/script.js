@@ -1428,7 +1428,7 @@ $(document).ready(function(){
   //     console.log(data);
   //   }
   // });
-  const token_instagram = '2226104334.4571e32.183204cf7da74daeb62075a518b63136';
+  const token_instagram = '2226104334.4571e32.5fbec0cd94c44f1392c06aaac6eacb7c';
   const num_photos = 8;
   const uri_api_instagram = `https://api.instagram.com/v1/users/self/media/recent/?access_token=${token_instagram}&count=${num_photos}`
 
