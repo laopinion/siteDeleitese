@@ -165,7 +165,7 @@
                 <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
                 <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;	</button>
             </div>
-            <section class="reviews">
+            <!-- <section class="reviews">
                 <div id="place_id" style="display: none;"><?php print render($content['field_place_id']);?></div>
                 <h3>Nuestros clientes opinan</h3>
                 <div id="google-reviews"></div>
@@ -173,7 +173,7 @@
                     <a href="#" target="_blank">Deja tu opinión</a>
                     <span></span>
                 </div>
-            </section>
+            </section> -->
         </div>
 
         <script>
@@ -241,27 +241,27 @@
                 x[slideIndex-1].style.display = "block";  
             }
         </script>
-        <script src="<?php print base_path(); ?>sites/default/themes/deleitese/js/google-places.js"></script>
-        <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyByEGHPaDWlgogaLXVOIFsBDpjZgZvhXe0&signed_in=true&libraries=places"></script>
+        <!-- <script src="<?php print base_path(); ?>sites/default/themes/deleitese/js/google-places.js"></script> -->
+        <!-- <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyByEGHPaDWlgogaLXVOIFsBDpjZgZvhXe0&signed_in=true&libraries=places"></script> -->
 
 
         <script>
-            jQuery(document).ready(function( $ ) {
-                const place_id = $('.reviews #place_id .field-item').text();
-                if (place_id != '') {
-                    const createReview = `https://search.google.com/local/writereview?placeid=${place_id}`;
-                    $("#google-reviews").googlePlaces({
-                        placeId: place_id //Find placeID @: https://developers.google.com/places/place-id
-                        , render: ['reviews']
-                        , min_rating: 4
-                        , max_rows:4
-                    });
+            // jQuery(document).ready(function( $ ) {
+            //     const place_id = $('.reviews #place_id .field-item').text();
+            //     if (place_id != '') {
+            //         const createReview = `https://search.google.com/local/writereview?placeid=${place_id}`;
+            //         $("#google-reviews").googlePlaces({
+            //             placeId: place_id //Find placeID @: https://developers.google.com/places/place-id
+            //             , render: ['reviews']
+            //             , min_rating: 4
+            //             , max_rows:4
+            //         });
     
-                    $('.reviews .create a').attr('href', createReview);
-                } else {
-                    $('.reviews').hide();
-                }
-            });
+            //         $('.reviews .create a').attr('href', createReview);
+            //     } else {
+            //         $('.reviews').hide();
+            //     }
+            // });
         </script>
     </div>  
 </div>
