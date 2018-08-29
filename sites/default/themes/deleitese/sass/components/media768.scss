@@ -935,4 +935,33 @@
       margin-bottom: 50px;
     }
   }
+  #hamburguesaton{
+    .contenido{
+      .hamburguesaton{
+        width: 40%;
+        margin: 0 30%;
+      }
+      .que{
+        width: 70%;
+        margin: 0px 15%;
+      }
+      .cuando{
+        width: 70%;
+        margin: 0px 15%;
+      }
+      .quienes{
+        width: 70%;
+        margin: 0px 15%;
+        .logos{
+          .rest{
+            width: 23%;
+          }
+        } 
+      }
+    }
+  }
+
+
+
+
 }

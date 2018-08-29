@@ -144,4 +144,34 @@
     }
   }// Fin search
   
+  #hamburguesaton{
+    .contenido{
+      .hamburguesaton{
+        width: 70%;
+        margin: 0 15%;
+      }
+      .que{
+        width: 90%;
+        margin: 0px 5%;
+      }
+      .cuando{
+        width: 90%;
+        margin: 0px 5%;
+      }
+      .quienes{
+        width: 90%;
+        margin: 0px 5%;
+        .logos{
+          .rest{
+            width: 43%;
+          }
+        } 
+      }
+    }
+  }
+
+
+
+
+
 }
