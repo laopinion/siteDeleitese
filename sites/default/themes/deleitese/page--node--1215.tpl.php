@@ -158,6 +158,7 @@ Es importante recordar que todas las hamburguesas estarán a 10 mil pesos y <str
         	-->
         </div>
         <div class="premio">
+        	<img src="<?php print base_path(); ?>sites/default/themes/deleitese/images/hamburguesaton/premio.png">
         	<div class="texto">Así, estarás participando en el sorteo de estos excelentes premios, que se entregará al final del concurso.</div>
 			<img src="<?php print base_path(); ?>sites/default/themes/deleitese/images/hamburguesaton/premios.png">
 		</div>	
