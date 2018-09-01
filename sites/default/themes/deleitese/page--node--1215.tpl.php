@@ -138,7 +138,6 @@ Es importante recordar que todas las hamburguesas estarán a 10 mil pesos y <str
 				</div>
 				<div class="rest">
 					<a href="https://www.facebook.com/pages/Fanaticos-In-the-House-Chinacota/159146951390548" target="_blank"><img src="<?php print base_path(); ?>sites/default/themes/deleitese/images/hamburguesaton/logos/fanaticos.png"></a>
-					<span>Sector Isla verde, 300 mt arriba de la bomba de gasolina frente al conjunto Bello Horizonte, Chinacota</span>
 					<span>Carrera 6 # 8 - 15 Barrio Centro, Pamplona</span>
 					
 				</div>
