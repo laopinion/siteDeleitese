@@ -5173,11 +5173,32 @@ footer {
       height: auto;
       position: relative;
       float: left;
-      margin: 0px 25%; }
+      margin: 0px 25%;
+      padding-bottom: 300px; }
       #hamburguesaton .contenido .como img {
         width: 100%;
         height: auto; }
       #hamburguesaton .contenido .como .texto {
+        text-align: center;
+        width: 70%;
+        margin: 20px 15%;
+        float: left;
+        position: relative;
+        color: #333;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 18px; }
+    #hamburguesaton .contenido .premio {
+      width: 50%;
+      height: auto;
+      position: relative;
+      float: left;
+      margin: 0px 25%;
+      padding-bottom: 300px; }
+      #hamburguesaton .contenido .premio img {
+        width: 100%;
+        height: auto; }
+      #hamburguesaton .contenido .premio .texto {
         text-align: center;
         width: 70%;
         margin: 20px 15%;
@@ -5944,7 +5965,13 @@ footer {
     width: 70%;
     margin: 0px 15%; }
     #hamburguesaton .contenido .quienes .logos .rest {
-      width: 23%; } }
+      width: 23%; }
+  #hamburguesaton .contenido .como {
+    width: 70%;
+    margin: 0px 15%; }
+  #hamburguesaton .contenido .premio {
+    width: 70%;
+    margin: 0px 15%; } }
 @media screen and (max-width: 600px) {
   header .buscador .buscar {
     padding: 0 5px; }
@@ -6028,7 +6055,13 @@ footer {
     width: 90%;
     margin: 0px 5%; }
     #hamburguesaton .contenido .quienes .logos .rest {
-      width: 43%; } }
+      width: 43%; }
+  #hamburguesaton .contenido .como {
+    width: 90%;
+    margin: 0px 5%; }
+  #hamburguesaton .contenido .premio {
+    width: 90%;
+    margin: 0px 5%; } }
 @media screen and (max-width: 480px) {
   header #movil .hamburLogo {
     width: 100%; }
