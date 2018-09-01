@@ -149,7 +149,7 @@ Es importante recordar que todas las hamburguesas estarán a 10 mil pesos y <str
 		</div>
         <div class="como">
         	<div class="texto">Participar es muy fácil. Solo deberás conocer la lista de los restaurantes que participan en la Hamburguesatón, visitarlos, probarlas y votar por la hamburguesa que más te haya gustado. 
-<strong>Deberás registrar tu voto en nuestro aquí</strong>, elegir tu hamburguesa preferida e ingresar tus datos.
+<strong>Deberás registrar tu voto en nuestro aquí a partir del 5 de Septiembre</strong>, elegir tu hamburguesa preferida e ingresar tus datos.
 			</div>
 			
 			<!--
