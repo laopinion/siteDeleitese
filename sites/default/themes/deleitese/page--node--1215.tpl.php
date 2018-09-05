@@ -1,3 +1,4 @@
+<!--
 <div class="emergentes">
   <div class="content">
     <div class="newsletter">
@@ -14,7 +15,7 @@
         </div>
       </form>
     </div>
-    <!--Rutas--><?php $view = views_get_view('detalle'); print $view->preview('block_7'); ?><!--FIN Rutas-->
+	<?php // $view = views_get_view('detalle'); print $view->preview('block_7'); ?>
     <div class="pauta p300x250"><div class="info">
       <script async type='text/javascript' src='//s.clickiocdn.com/t/common_258.js'></script>
       <div class='__lxGc__'></div>
@@ -23,7 +24,7 @@
       </script>
       </div>
     </div>
-    <!--Donde--><?php // $view = views_get_view('detalle'); print $view->preview('block_7'); ?><!--FIN Donde-->
+    <?php // $view = views_get_view('detalle'); print $view->preview('block_7'); ?>
   </div>
 </div>
 
@@ -45,7 +46,7 @@
     </div>
   </form>
 </div>
-
+-->
 <div id="hamburguesaton">
     <div class="contenido">
         <div class="hamburguesaton"><img src="<?php print base_path(); ?>sites/default/themes/deleitese/images/hamburguesaton/logo_h.png"></div>
