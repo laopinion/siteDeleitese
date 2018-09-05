@@ -134,7 +134,7 @@ Es importante recordar que todas las hamburguesas estarán a 10 mil pesos y <str
 				</div>
 				<div class="rest">
 					<!--<a href="https://www.google.com.co/maps/place/Restaurante+La+Mazorca/@7.8873964,-72.5027041,15z/data=!4m2!3m1!1s0x0:0xa5d1ed475d4e19f5?sa=X&ved=2ahUKEwje-7Ge2ZLdAhUP0FkKHYeVB2cQ_BIwCnoECAoQCw" target="_blank">--><img src="<?php print base_path(); ?>sites/default/themes/deleitese/images/hamburguesaton/logos/mazorca.png"><!--</a>-->
-					<span>Avenida 4 # 9-67, Cúcuta,</span>
+					<span>Centro comercial Ventura Plaza, Cúcuta</span>
 				</div>
 				<div class="rest">
 					<!--<a href="http://www.deleitese.co/establecimiento/molinito-restaurante" target="_blank">--><img src="<?php print base_path(); ?>sites/default/themes/deleitese/images/hamburguesaton/logos/molinito.png"><!--</a>-->
@@ -170,11 +170,11 @@ Es importante recordar que todas las hamburguesas estarán a 10 mil pesos y <str
 				</div>
 				<div class="rest">
 					<!--<a href="http://www.deleitese.co/establecimiento/rolling-food-truck" target="_blank">--><img src="<?php print base_path(); ?>sites/default/themes/deleitese/images/hamburguesaton/logos/rolling.png"><!--</a>-->
-					<span>Avenida10 #60-61 Bahía de trucks, Pinar del Río, Cúcuta</span>
+					<span>Avenida 10 # 60-61, Pinar del Río, Cúcuta</span>
 				</div>
 				<div class="rest">
 					<!--<a href="http://www.deleitese.co/establecimiento/la-tertulia" target="_blank">--><img src="<?php print base_path(); ?>sites/default/themes/deleitese/images/hamburguesaton/logos/tertulia.png"><!--</a>-->
-					<span>Avenida 0 #13-20, barrio La Playa, Cúcuta</span>
+					<span>Avenida 0 # 13-20, barrio La Playa, Cúcuta</span>
 				</div>
 				<div class="rest">
 					<!--<a href="http://www.deleitese.co/establecimiento/vagamonde" target="_blank">--><img src="<?php print base_path(); ?>sites/default/themes/deleitese/images/hamburguesaton/logos/vagamonde.png"><!--</a>-->
@@ -186,7 +186,7 @@ Es importante recordar que todas las hamburguesas estarán a 10 mil pesos y <str
 				</div>
 				<div class="rest">
 					<!--<a href="https://www.facebook.com/pages/Fanaticos-In-the-House-Chinacota/159146951390548" target="_blank">--><img src="<?php print base_path(); ?>sites/default/themes/deleitese/images/hamburguesaton/logos/fanaticos.png"><!--</a>-->
-					<span>Carrera 6 # 8 - 15 Barrio Centro, Pamplona</span>
+					<span>300 Mts arriba de la bomba de gasolina, frente al conjunto Bello Horizonte, Chinácota</span>
 					
 				</div>
 				<div class="rest">
