@@ -84,6 +84,7 @@
   <!-- ANALYTICS CODE -->
   <?php include_once("analyticstracking.php") ?>
   <?php include_once("clickio.php") ?>
+  <?php include_once("mailchimp.php") ?>
   <!-- FIN ANALYTICS CODE -->
 
   <?php print $styles; ?>
