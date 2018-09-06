@@ -49,18 +49,19 @@
 -->
 <div id="hamburguesaton">
     <div class="contenido">
+    	<div class="typeform-widget" data-url="https://laopinion.typeform.com/to/cC4gMP" style="width: 100%; height: 600px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"><!-- powered by <a href="https://admin.typeform.com/signup?utm_campaign=cC4gMP&utm_source=typeform.com-11144399-Basic&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=ES" style="color: #999" target="_blank">Typeform</a>--></div>
+
         <div class="hamburguesaton"><img src="<?php print base_path(); ?>sites/default/themes/deleitese/images/hamburguesaton/logo_h.png"></div>
         <div class="que">
         	<img src="<?php print base_path(); ?>sites/default/themes/deleitese/images/hamburguesaton/que.png">
         	<div class="texto">La primera Hamburguesatón es un concurso que pretende, a través de votaciones de los comensales, escoger <strong>la mejor hamburguesa de Cúcuta</strong>. Cada uno de los restaurantes participantes ofrecerá su mejor hamburguesa por un valor estándar de <strong>10 mil pesos</strong>, durante el mes de septiembre, para que la mayor cantidad de personas pueda probarla.</div>
         </div>	
+
         <div class="como">
         	<div class="texto">Participar es muy fácil. Solo deberás conocer la lista de los restaurantes que participan en la Hamburguesatón, visitarlos, probarlas y votar por la hamburguesa que más te haya gustado. 
 <strong>Deberás registrar tu voto aquí a partir del 5 de Septiembre</strong>, elegir tu hamburguesa preferida e ingresar tus datos.
 			</div>
 			<iframe width="100%" height="315" src="https://www.youtube.com/embed/3BZkkk5RMdc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
-        	<div class="typeform-widget" data-url="https://laopinion.typeform.com/to/cC4gMP" style="width: 100%; height: 600px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"><!-- powered by <a href="https://admin.typeform.com/signup?utm_campaign=cC4gMP&utm_source=typeform.com-11144399-Basic&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=ES" style="color: #999" target="_blank">Typeform</a>--></div>
         	
         </div>
         <div class="cuando">
