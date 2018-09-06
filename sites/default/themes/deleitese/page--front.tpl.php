@@ -15,10 +15,15 @@
 </head>
 <body>
   <section id="home">
-    <div class="slides">
-      <ul class="rslides">
-        <!-- Carga de imagenes con el api/services -->
-      </ul>
+    <?php 
+      // <div class="slides">
+      //   <ul class="rslides"></ul>
+      // </div>
+    ?>
+    <div class="slide_hamburguesaton">
+      <a href="http://www.deleitese.co/hamburguesaton">
+        <img src="<?php print base_path(); ?>sites/default/themes/deleitese/images/hamburguesaton/hamburguesaton_cintillo.jpg" alt="hamburguesaton" style="width: 100%;" />
+      </a>
     </div>
     <?php include('hamburguesaton.php'); ?>
     <article id="rutas">
