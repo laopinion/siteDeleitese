@@ -1,3 +1,4 @@
+<!--
 <div class="emergentes">
   <div class="content">
     <div class="newsletter">
@@ -14,7 +15,7 @@
         </div>
       </form>
     </div>
-    <!--Rutas--><?php $view = views_get_view('detalle'); print $view->preview('block_7'); ?><!--FIN Rutas-->
+	<?php // $view = views_get_view('detalle'); print $view->preview('block_7'); ?>
     <div class="pauta p300x250"><div class="info">
       <script async type='text/javascript' src='//s.clickiocdn.com/t/common_258.js'></script>
       <div class='__lxGc__'></div>
@@ -23,7 +24,7 @@
       </script>
       </div>
     </div>
-    <!--Donde--><?php // $view = views_get_view('detalle'); print $view->preview('block_7'); ?><!--FIN Donde-->
+    <?php // $view = views_get_view('detalle'); print $view->preview('block_7'); ?>
   </div>
 </div>
 
@@ -45,14 +46,24 @@
     </div>
   </form>
 </div>
-
+-->
 <div id="hamburguesaton">
     <div class="contenido">
+    	<a class="typeform-share button" href="https://laopinion.typeform.com/to/cC4gMP" data-mode="popup" style="display:inline-block;text-decoration:none;background-color:#F7931E;color:white;cursor:pointer;font-family:Helvetica,Arial,sans-serif;font-size:20px;line-height:50px;text-align:center;margin:0;height:50px;padding:0px 33px;border-radius:25px;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:bold;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;" target="_blank">¡Votar! </a> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
+
         <div class="hamburguesaton"><img src="<?php print base_path(); ?>sites/default/themes/deleitese/images/hamburguesaton/logo_h.png"></div>
         <div class="que">
         	<img src="<?php print base_path(); ?>sites/default/themes/deleitese/images/hamburguesaton/que.png">
         	<div class="texto">La primera Hamburguesatón es un concurso que pretende, a través de votaciones de los comensales, escoger <strong>la mejor hamburguesa de Cúcuta</strong>. Cada uno de los restaurantes participantes ofrecerá su mejor hamburguesa por un valor estándar de <strong>10 mil pesos</strong>, durante el mes de septiembre, para que la mayor cantidad de personas pueda probarla.</div>
         </div>	
+
+        <div class="como">
+        	<div class="texto">Participar es muy fácil. Solo deberás conocer la lista de los restaurantes que participan en la Hamburguesatón, visitarlos, probarlas y votar por la hamburguesa que más te haya gustado. 
+<strong>Deberás registrar tu voto aquí a partir del 5 de Septiembre</strong>, elegir tu hamburguesa preferida e ingresar tus datos.
+			</div>
+			<iframe width="100%" height="315" src="https://www.youtube.com/embed/3BZkkk5RMdc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        	
+        </div>
         <div class="cuando">
         	<img src="<?php print base_path(); ?>sites/default/themes/deleitese/images/hamburguesaton/cuando.png">
         	<div class="texto">A partir del <strong>22 de agosto</strong> se publicará la lista de los restaurantes que harán parte de la Hamburguesatón <strong>y desde el 5 de septiembre, los comensales podrán visitar los establecimientos</strong>,  probarlas y votar por la mejor. <br>
@@ -195,15 +206,6 @@ Es importante recordar que todas las hamburguesas estarán a 10 mil pesos y <str
 				</div>
 			</div>
 		</div>
-        <div class="como">
-        	<div class="texto">Participar es muy fácil. Solo deberás conocer la lista de los restaurantes que participan en la Hamburguesatón, visitarlos, probarlas y votar por la hamburguesa que más te haya gustado. 
-<strong>Deberás registrar tu voto aquí a partir del 5 de Septiembre</strong>, elegir tu hamburguesa preferida e ingresar tus datos.
-			</div>
-			<iframe width="100%" height="315" src="https://www.youtube.com/embed/3BZkkk5RMdc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
-        	<div class="typeform-widget" data-url="https://laopinion.typeform.com/to/cC4gMP" style="width: 100%; height: 600px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"><!-- powered by <a href="https://admin.typeform.com/signup?utm_campaign=cC4gMP&utm_source=typeform.com-11144399-Basic&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=ES" style="color: #999" target="_blank">Typeform</a>--></div>
-        	
-        </div>
         <div class="premio">
         	<img src="<?php print base_path(); ?>sites/default/themes/deleitese/images/hamburguesaton/premio_.png">
         	<div class="texto">Así, estarás participando en el sorteo de estos excelentes premios, que se entregará al final del concurso.</div>
