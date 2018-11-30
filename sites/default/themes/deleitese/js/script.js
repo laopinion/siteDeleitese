@@ -1428,9 +1428,10 @@ $(document).ready(function(){
   //     console.log(data);
   //   }
   // });
-  const token_instagram = '2226104334.4571e32.67dcc151d595411c8ce337680ab9669a';
+  const token_instagram = '2226104334.624fd0f.16831506943c41749374c53b1d38b562';
   const num_photos = 8;
-  const uri_api_instagram = `https://api.instagram.com/v1/users/self/media/recent/?access_token=${token_instagram}&count=${num_photos}`
+  const userId = '2226104334'
+  const uri_api_instagram = `https://api.instagram.com/v1/users/${userId}/media/recent/?access_token=${token_instagram}&count=${num_photos}`
 
   fetch(uri_api_instagram)
   .then(function (res) {
@@ -1447,6 +1448,22 @@ $(document).ready(function(){
   .catch(function (err) {
     console.log(`Algo salio mal :( ${err}`);
   })
+
+  // $.ajax({
+  //   url: 'https://api.instagram.com/v1/users/' + userId + '/media/recent', // or /users/self/media/recent for Sandbox
+  //   dataType: 'jsonp',
+  //   type: 'GET',
+  //   data: {access_token: token_instagram, count: num_photos},
+  //   success: function(data){
+  //     console.log(data);
+  //     for( x in data.data ){
+  //       $('#galeriaInstagram').append('<li class="row'+x+'"><a href="'+data.data[x].link+'" target=_blank></a> <img src="'+data.data[x].images.standard_resolution.url+'"> <div class=data> <i class=icono></i><aside class=likes>'+data.data[x].likes.count+' me gusta</aside> </div> </li>');
+  //     }
+  //   },
+  //   error: function(data){
+  //     console.log(data); // send the error notifications to console
+  //   }
+  // });
 
   $('#home #modulo3 .verMas').click(function(){
     var activo = $(this).data('activo');
