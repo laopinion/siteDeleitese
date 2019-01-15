@@ -20,11 +20,16 @@
       //   <ul class="rslides"></ul>
       // </div>
     ?>
+    <div class="slides">
+       <ul class="rslides"></ul>
+    </div>
+    <!--
     <div class="slide_hamburguesaton">
       <a href="http://www.deleitese.co/hamburguesaton">
-        <img src="<?php print base_path(); ?>sites/default/themes/deleitese/images/hamburguesaton/hamburguesaton_cintillo.jpg" alt="hamburguesaton" style="width: 100%;" />
+        <img src="<?php // print base_path(); ?>sites/default/themes/deleitese/images/hamburguesaton/hamburguesaton_cintillo.jpg" alt="hamburguesaton" style="width: 100%;" />
       </a>
     </div>
+    -->
     <?php include('hamburguesaton.php'); ?>
     <article id="rutas">
       <section class="notas">
